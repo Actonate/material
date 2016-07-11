@@ -19,6 +19,7 @@ var IS_DEV = require('../const')
   .IS_DEV;
 
 exports.task = function() {
+
   var streams = [];
   var modules = args['modules'],
     overrides = args['override'],
@@ -37,7 +38,7 @@ exports.task = function() {
     .pipe(filter(['**', '!**/*.css']))
     .pipe(filter(['**', '!**/*-theme.scss']))
     .pipe(filter(['**', '!**/*-attributes.scss']))
-    .pipe(concat('angular-material.scss'))
+    .pipe(concat('angular-material-extended.scss'))
     .pipe(gulp.dest(dest)) // raw uncompiled SCSS
     .pipe(sass())
     .pipe(util.autoprefix())
@@ -113,14 +114,7 @@ exports.task = function() {
 
   function getPaths() {
     var paths = config.scssBaseFiles.slice();
-    if (modules) {
-      paths.push.apply(paths, modules.split(',')
-        .map(function(module) {
-          return 'src/components/' + module + '/*.scss';
-        }));
-    } else {
-      paths = paths.concat(config.scssPaths);
-    }
+    paths = paths.concat(config.scssExtendedPaths);
     overrides && paths.unshift(overrides);
     return paths;
   }
