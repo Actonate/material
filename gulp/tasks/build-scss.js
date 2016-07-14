@@ -119,7 +119,8 @@ exports.task = function() {
           return 'src/components/' + module + '/*.scss';
         }));
     } else {
-      paths = paths.concat(config.scssPaths);
+      paths.push('src/components/**/*.scss');
+      paths.push('src/core/services/layout/**/*.scss');
     }
     overrides && paths.unshift(overrides);
     return paths;
