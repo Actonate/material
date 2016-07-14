@@ -37,7 +37,7 @@ module.exports = {
     'src/components/dialog/**/*.js',
     'src/components/gridList/**/*.js',
     'src/components/navBar/**/*.js',
-    'src/components/processLinear/**/*.js',
+    'src/components/progressLinear/**/*.js',
     'src/components/sidenav/**/*.js',
     'src/components/tooltip/**/*.js',
     'src/components/virtualRepeat/**/*.js',
@@ -58,6 +58,10 @@ module.exports = {
     'src/core/style/structure.scss',
     'src/core/style/typography.scss',
     'src/core/style/layout.scss'
+  ],
+  scssBaseExtendedFiles: [
+    'src/core/style/variables.scss',
+    'src/core/style/mixins.scss'
   ],
   scssLayoutFiles: [
     'src/core/style/variables.scss',
@@ -80,6 +84,7 @@ module.exports = {
     'src/components/icon/**/*.scss',
     'src/components/input/**/*.scss',
     'src/components/menu/**/*.scss',
+    'src/components/menuBar/**/*.scss',
     'src/components/progressCircular/**/*.scss',
     'src/components/radioButton/**/*.scss',
     'src/components/select/**/*.scss',
@@ -95,7 +100,7 @@ module.exports = {
     'src/components/dialog/**/*.scss',
     'src/components/gridList/**/*.scss',
     'src/components/navBar/**/*.scss',
-    'src/components/processLinear/**/*.scss',
+    'src/components/progressLinear/**/*.scss',
     'src/components/sidenav/**/*.scss',
     'src/components/tooltip/**/*.scss',
     'src/components/virtualRepeat/**/*.scss'
