@@ -33,6 +33,7 @@ module.exports = {
     '!src/**/*.spec.js'
   ],
   jsExtendedFiles: [
+    'src/components/autocomplete/**/*.js',
     'src/components/datePicker/**/*.js',
     'src/components/dialog/**/*.js',
     'src/components/gridList/**/*.js',
