@@ -40,6 +40,7 @@ module.exports = {
     'src/components/navBar/**/*.js',
     'src/components/progressLinear/**/*.js',
     'src/components/sidenav/**/*.js',
+    'src/components/switch/**/*.js',
     'src/components/tooltip/**/*.js',
     'src/components/virtualRepeat/**/*.js',
     '!src/**/*.spec.js'
