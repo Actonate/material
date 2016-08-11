@@ -20,6 +20,7 @@ module.exports = {
     'src/components/checkbox/**/*.js',
     'src/components/colors/**/*.js',
     'src/components/content/**/*.js',
+    'src/components/dialog/**/*.js',
     'src/components/icon/**/*.js',
     'src/components/input/**/*.js',
     'src/components/menu/**/*.js',
@@ -35,7 +36,6 @@ module.exports = {
   jsExtendedFiles: [
     'src/components/autocomplete/**/*.js',
     'src/components/datePicker/**/*.js',
-    'src/components/dialog/**/*.js',
     'src/components/gridList/**/*.js',
     'src/components/navBar/**/*.js',
     'src/components/progressLinear/**/*.js',
