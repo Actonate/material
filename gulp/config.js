@@ -23,6 +23,7 @@ module.exports = {
     'src/components/dialog/**/*.js',
     'src/components/icon/**/*.js',
     'src/components/input/**/*.js',
+    'src/components/gridList/**/*.js',
     'src/components/menu/**/*.js',
     'src/components/progressCircular/**/*.js',
     'src/components/radioButton/**/*.js',
@@ -36,7 +37,6 @@ module.exports = {
   jsExtendedFiles: [
     'src/components/autocomplete/**/*.js',
     'src/components/datePicker/**/*.js',
-    'src/components/gridList/**/*.js',
     'src/components/navBar/**/*.js',
     'src/components/progressLinear/**/*.js',
     'src/components/sidenav/**/*.js',
@@ -85,6 +85,7 @@ module.exports = {
     'src/components/content/**/*.scss',
     'src/components/icon/**/*.scss',
     'src/components/input/**/*.scss',
+    'src/components/gridList/**/*.scss',
     'src/components/menu/**/*.scss',
     'src/components/menuBar/**/*.scss',
     'src/components/progressCircular/**/*.scss',
@@ -100,7 +101,6 @@ module.exports = {
   scssExtendedPaths: [
     'src/components/datePicker/**/*.scss',
     'src/components/dialog/**/*.scss',
-    'src/components/gridList/**/*.scss',
     'src/components/navBar/**/*.scss',
     'src/components/progressLinear/**/*.scss',
     'src/components/sidenav/**/*.scss',
