@@ -36,6 +36,7 @@ module.exports = {
   ],
   jsExtendedFiles: [
     'src/components/autocomplete/**/*.js',
+    'src/components/chips/**/*.js',
     'src/components/datePicker/**/*.js',
     'src/components/navBar/**/*.js',
     'src/components/progressLinear/**/*.js',
